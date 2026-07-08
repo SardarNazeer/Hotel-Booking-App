@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="bg-[#F6F9FC] text-gray-500/80 pt-8 px-6 md:px-16 lg:px-24 xl:px-32">
       <div className="flex flex-wrap justify-between gap-12 md:gap-6">
         <div className="max-w-80">
-          <img src={assets.logo} alt="" className="mb-4 h-8 md:h-9" />
+          <img src={assets.logo} alt="" className="mb-4 h-8 md:h-9 invert opacity-80" />
           <p className="text-sm">
             Discover the world most extraordinary places to stay, from bootique
             hotels to luxury villas and private islands.
@@ -79,23 +79,7 @@ const Footer = () => {
             />
             <button className="flex items-center justify-center bg-black h-9 w-9 aspect-square rounded-r">
               {/* Arrow icon */}
-              <svg
-                className="w-4 h-4 text-white"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                fill="none"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M19 12H5m14 0-4 4m4-4-4-4"
-                />
-              </svg>
+            <img src={assets.arrowIcon} alt="" className="w-3.5 invert" />
             </button>
           </div>
         </div>
@@ -104,7 +88,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row gap-2 items-center justify-between py-5">
         <p>
           © {new Date().getFullYear()}{" "}
-          <a href="https://prebuiltui.com">PrebuiltUI</a>. All rights reserved.
+          Sardar Nazeer. All rights reserved.
         </p>
         <ul className="flex items-center gap-4">
           <li>
